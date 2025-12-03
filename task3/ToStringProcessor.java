@@ -13,7 +13,7 @@ public class ToStringProcessor {
      * Создаёт строку с полями, помеченными @ToString.
      * Если аннотация стоит на классе — выводятся только разрешённые поля.
      *
-     * @param obj объект, который нужно преобразовать в строку
+     * obj объект, который нужно преобразовать в строку
      * @return строковое представление объекта
      */
     public static String buildString(Object obj) {
@@ -45,3 +45,4 @@ public class ToStringProcessor {
         return sb.toString();
     }
 }
+
