@@ -10,7 +10,7 @@ public class CacheProcessor {
      * Проверяет наличие @Cache у класса и выводит
      * все указанные в аннотации области кеширования.
      *
-     * @param cls класс, который нужно обработать
+     * cls класс, который нужно обработать
      */
     public static void process(Class<?> cls) {
 
@@ -34,3 +34,4 @@ public class CacheProcessor {
         }
     }
 }
+
