@@ -10,7 +10,7 @@ public class ValidateProcessor {
      * Проверяет наличие @Validate у класса
      * и выводит список типов из аннотации.
      *
-     * @param cls класс, который нужно обработать
+     * cls класс, который нужно обработать
      */
     public static void process(Class<?> cls) {
 
@@ -28,3 +28,4 @@ public class ValidateProcessor {
         }
     }
 }
+
