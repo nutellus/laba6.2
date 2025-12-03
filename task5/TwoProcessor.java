@@ -10,7 +10,7 @@ public class TwoProcessor {
      * Проверяет наличие @Two у класса и выводит
      * строковый и числовой параметры аннотации.
      *
-     * @param cls класс, который нужно обработать
+     * cls класс, который нужно обработать
      */
     public static void process(Class<?> cls) {
 
@@ -26,3 +26,4 @@ public class TwoProcessor {
         }
     }
 }
+
