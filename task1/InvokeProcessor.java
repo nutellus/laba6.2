@@ -11,7 +11,7 @@ public class InvokeProcessor {
     /**
      * Выполняет все методы объекта, которые отмечены @Invoke.
      *
-     * @param obj объект, методы которого требуется проверить
+     * obj объект, методы которого требуется проверить
      */
     public static void process(Object obj) {
         for (Method method : obj.getClass().getDeclaredMethods()) {
@@ -24,3 +24,4 @@ public class InvokeProcessor {
         }
     }
 }
+
