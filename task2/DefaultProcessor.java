@@ -10,7 +10,7 @@ public class DefaultProcessor {
      * Проверяет наличие аннотации @Default у класса
      * и выводит тип, указанный в аннотации.
      *
-     * @param cls класс, который нужно обработать
+     * cls класс, который нужно обработать
      */
     public static void process(Class<?> cls) {
 
@@ -22,3 +22,4 @@ public class DefaultProcessor {
         }
     }
 }
+
